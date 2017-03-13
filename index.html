@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HW5 - Trivia Game</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Bootstrap mobile first -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<!-- link to CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- jQuery CDN -->
+ 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+ 	<!-- link to JavaScript -->
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	<!-- <script type="text/javascript" src="assets/javascript/test.js"></script> -->
+	
+</head>
+
+<body>
+	<section class="container">
+		<h1>Coffee Trivia!</h1>
+		
+	<!-- START SCREEN -->
+		<section class="introscreen">
+			<section class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<p>Hello! Test your coffee smarts here!</p>
+					<p>Click 'Start' when ready</p>
+				</div>
+			</section>
+
+			<section class="row col-md-offset-6">
+				<!-- <div class="col-md-offset-6"> -->
+					<button class="btn btn-default startbutton" type="submit">Start</button>
+				<!-- </div> -->
+			</section>			
+		</section>
+
+	<!-- TRIVIA SCREEN -->
+		<section class="triviascreen">
+			<div class=" row col-md-6 col-md-offset-6">
+				<div id = "timer">00:60</div>
+			</div><br>
+			<!-- <div class="progress timertwo">
+				<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+					<span class="sr-only">time elapsed</span>
+				</div>
+			</div> -->
+			<div class="row">
+				<div class="panel panel-default">
+				  <div class="panel-heading">Panel heading without title</div>
+				  <div class="panel-body">
+				    Panel content
+				  </div>
+				</div>
+			</div>
+
+
+			<div class="row col-md-8 questionone">
+				<!-- <label class="radio-inline">
+				<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+				</label>
+				<label class="radio-inline">
+				<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+				</label>
+				<label class="radio-inline">
+				<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+				</label> -->
+			</div>
+			<div class="row col-md-8 questiontwo"></div>
+			<div class="row col-md-8 question"></div>
+			<!-- <div class="row donebutton"></div> -->
+			<section class="row col-md-offset-6">
+				<button class="btn btn-default donebutton" type="submit">Done</button>
+			</section>
+			
+		</section>
+
+	<!-- SCORE SCREEN -->
+		<section class="row">
+			<div class="col-md-8 scorescreen"></div>
+		</section>
+
+
+	</section>
+	
+	<footer class="panel-footer">
+		Copyright &copy; 2017 Julia Saucedo
+	</footer>
+
+</body>
+</html>
