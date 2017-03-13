@@ -42,22 +42,60 @@
 			<div class=" row col-md-6 col-md-offset-6">
 				<div id = "timer">00:60</div>
 			</div><br>
-			<!-- <div class="progress timertwo">
-				<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
-					<span class="sr-only">time elapsed</span>
-				</div>
-			</div> -->
+
+				<!-- the below is trying to add a progress bar instead of a counter -->
+				<!-- <div class="progress timertwo">
+					<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+						<span class="sr-only">time elapsed</span>
+					</div>
+				</div> -->
+
 			<div class="row">
 				<div class="panel panel-default">
-				  <div class="panel-heading">Panel heading without title</div>
-				  <div class="panel-body">
-				    Panel content
+				  <div class="panel-heading q-1-here">Question 1 goes here</div>
+				  <div class="panel-body options-1-here">Multiple-Choice 1 goes here
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4"> 4
+					</label>
 				  </div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="panel panel-default">
+				  <div class="panel-heading q-2-here">Question 2 goes here</div>
+				  <div class="panel-body options-2-here">Multiple-Choice 2 goes here</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="panel panel-default">
+				  <div class="panel-heading q-3-here">Question 1 goes here</div>
+				  <div class="panel-body options-3-here">Multiple-Choice 3 goes here</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="panel panel-default">
+				  <div class="panel-heading q-4-here">Question 4 goes here</div>
+				  <div class="panel-body options-4-here">Multiple-Choice 4 goes here</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="panel panel-default">
+				  <div class="panel-heading q-5-here">Question 5 goes here</div>
+				  <div class="panel-body options-5-here">Multiple-Choice 5 goes here</div>
 				</div>
 			</div>
 
 
-			<div class="row col-md-8 questionone">
+			<div class="row col-md-8 questiontest">
 				<!-- <label class="radio-inline">
 				<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
 				</label>
@@ -68,8 +106,7 @@
 				<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
 				</label> -->
 			</div>
-			<div class="row col-md-8 questiontwo"></div>
-			<div class="row col-md-8 question"></div>
+			
 			<!-- <div class="row donebutton"></div> -->
 			<section class="row col-md-offset-6">
 				<button class="btn btn-default donebutton" type="submit">Done</button>
@@ -78,8 +115,17 @@
 		</section>
 
 	<!-- SCORE SCREEN -->
-		<section class="row">
-			<div class="col-md-8 scorescreen"></div>
+		<section class="scorescreen">
+			<div class="panel panel-default panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title">Score</h3>
+				</div>
+				<div class="panel-body">
+					<div class = "correctcount">Results go here</div>
+					<div class = "incorrectcount"></div>
+					<div class = "blankcount"></div>
+				</div>
+			</div>
 		</section>
 
 
